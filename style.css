@@ -82,7 +82,8 @@ header .locations {
 	right: 10px;
 }
 
-header .locations dt, header .locations dd {
+header .locations dt,
+header .locations dd {
 	display: inline;
 }
 
