@@ -73,16 +73,30 @@ header .logo {
 
 header .right-wrapper {
 	width: 460px;
+	position: relative;
+}
+
+header .locations {
+	position: absolute;
+	top: 10px;
+	right: 10px;
 }
 
 header .locations dt, header .locations dd {
 	display: inline;
 }
 
+header .search-box {
+	position: absolute;
+	bottom: 15px;
+	right: 10px;
+}
+
 header nav {
 	width: 760px;
 	background-color: #333;
 	height: 38px;
+	line-height: 38px;
 }
 
 header nav li { display: inline; }
